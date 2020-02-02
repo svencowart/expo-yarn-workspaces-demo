@@ -1,0 +1,14 @@
+{
+  "name": "expo-yarn-workspaces-demo",
+  "version": "1.0.0",
+  "description": "Demoing how to use expo-yarn-workspaces to share code between a react and react-native app.",
+  "main": "index.js",
+  "author": "Sven Cowart <svencowart@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

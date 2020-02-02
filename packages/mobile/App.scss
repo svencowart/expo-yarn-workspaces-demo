@@ -1,0 +1,12 @@
+@import './node_modules/@expo-yarn-workspaces-demo/core/styles/colors';
+
+.appView {
+  background-color: $primary;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.appText {
+  color: #ffffff;
+}
